@@ -1,18 +1,14 @@
-package org.location;
+package org.location.model;
 
-import lombok.Builder;
+import lombok.AllArgsConstructor;
 import lombok.Data;
-import lombok.Getter;
-import lombok.Setter;
 
 @Data
-@Builder
-@Setter
-@Getter
+@AllArgsConstructor
 public class ItemForRent {
     private final String id;
     private final String name;
     private final String description;
     private final double pricePerDay;
-    private final Status status;
+    private Status status;
 }

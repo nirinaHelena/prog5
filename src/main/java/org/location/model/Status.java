@@ -1,8 +1,7 @@
-package org.location;
+package org.location.model;
 
 public enum Status {
     AVAILABLE,
     RESERVED,
-    RENTED,
     DISABLED
 }
